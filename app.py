@@ -13,7 +13,7 @@ st.title("🏦 Bank Term Deposit Subscription Prediction")
 st.write("Predict whether a client will subscribe to a term deposit offer.")
 
 # --- Sidebar Information ---
-st.sidebar.header("User Input Features")
+st.header("User Input Features")
 
 # Collect user input
 def user_input_features():
@@ -69,4 +69,3 @@ if st.button("Predict Subscription"):
         st.success(f"✅ Client is **likely to subscribe** to a term deposit. (Probability: {probability:.2f})")
     else:
         st.error(f"❌ Client is **not likely to subscribe**. (Probability: {probability:.2f})")
-
