@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load("D:/Percia_MTech/GUVI/python/Projects/bank_deposit/models/best_classifier.pkl")
+model = joblib.load("models/best_classifier.pkl")
 
 st.set_page_config(page_title="Term Deposit Prediction", layout="centered")
 
