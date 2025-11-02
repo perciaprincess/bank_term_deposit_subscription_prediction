@@ -15,7 +15,7 @@ The solution includes data preprocessing, feature engineering, multiple ML model
 **LightGBM (LGBMClassifier)** with highest ROC-AUC score.
 
 ## 🌐 Live Application
-*(Add your deployed app link here once deployed)*
+https://banktermdepositsubscriptionprediction-nqzpjxck2msg76ge2nnhth.streamlit.app/
 
 ## 📦 Installation
 ```bash
